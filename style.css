@@ -1,0 +1,163 @@
+body {
+    background: url(./low-poly-grid-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+
+}
+
+.main {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(182, 233, 233);
+    display: flex;
+    opacity: 0.6;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0e0c0c;
+}
+
+.item {
+    text-decoration: none;
+    gap: 20px;
+    font-size: 20px;
+    display: flex;
+
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #0e0c0c;
+    display: flex;
+}
+
+button {
+    width: 150px;
+    padding: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:1024px) {
+
+    li {
+        display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    button {
+        width: 90px;
+        padding: 10px;
+        
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    
+}
+@media  screen and (max-width:450px) {
+    .heading>img {
+        width: 20px;
+        height: 20px;
+    }
+    button {
+        width: 75px;
+        padding: 8px;
+        font-size: 10px;
+    }
+    .heading {
+        font-size: 12px;
+    }
+}
+/* ............this is main body........ */
+
+.mainbody{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color:#ffff ;
+    opacity:0.6;
+    margin-top: 120px;
+
+}
+.abc{
+    padding: 20px;
+}
+.one{
+font-size: 50px;
+
+}
+
+.four{
+    width: 200px;
+}
+@media screen and  (max-width:1024px) {
+    .one{
+        font-size:40px;
+    }
+    .four{
+        width: 120px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    .three{
+        width: 100px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width:786px) {
+.one{
+    font-size:30px;
+}
+.xyz>img{
+    width: 250px;
+    height: 250px;;
+}
+.four{
+    width: 100px;
+    padding: 8px;
+    font-size: 10px;
+}
+.three{
+    width: 100px;
+    padding: 8px;
+    font-size: 10px;
+}
+
+.mainbody{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+        }
+}
+
